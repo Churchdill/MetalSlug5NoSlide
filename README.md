@@ -47,7 +47,7 @@ Step 3: Edit your XML file on your MiSTer to recognize the romhack.  This is typ
 
 After the "mslug5" line in the xml file add the following line, be mindful of syntax:
 
-```<romset name="mslug5ns" pvc="1" altname="Metal Slug 5 - No Slide" publisher="Romhack" year="2026" ram="2"/```
+```<romset name="mslug5ns" pvc="1" altname="Metal Slug 5 - No Slide" publisher="Romhack" year="2026" ram="2"/>```
 
 Save and close romsets.xml
 
