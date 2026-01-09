@@ -19,7 +19,7 @@ The patch only works for decrypted versions of Metal Slug 5.  For MAME I chose t
 Step 1: Make sure you have a working version of Metal Slug 5 (BOOTLEG) for MAME.  
 This is very specific, the patch will not work on any other encrypted versions of Metal Slug 5.  Note: I had to source the files from multiple places.
 
-Step 2: Once you have it working in MAME, close it and apply the IPS patch "MAME-mslug5b-ms5b-p1.ips" to the "ms5b-p1.bin" file
+Step 2: Once you have it working in MAME, close it and apply the IPS patch ```MAME-mslug5b-ms5b-p1.ips``` to the ```ms5b-p1.bin``` file
 
 Step 3: Run the game through MAME.  It will still be called Metal Slug 5 (Bootleg).  It will give checksum errors but it should work.
 
