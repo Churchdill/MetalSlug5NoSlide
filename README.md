@@ -11,15 +11,15 @@ The patch only works for decrypted versions of Metal Slug 5.  For MAME I chose t
 
 ### Prerequisites
 
-- Entire mslug5b folder. You can find the names of the files required [here.](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=mslug5b) 
-- ms5b-p1.bin P-ROM file (part of mslug5b folder)
-   - MD5 = 8DFAAE0E5FF75A49C79E9B59C6B26F17
+- Entire ```mslug5b``` folder. You can find the names of the files required [here.](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=mslug5b) 
+- ```ms5b-p1.bin``` P-ROM file (part of mslug5b folder)
+   - MD5 = ```8DFAAE0E5FF75A49C79E9B59C6B26F17```
 - [MAME-mslug5b-ms5b-p1.ips](https://github.com/Churchdill/MetalSlug5NoSlide/blob/master/ips/MAME-mslug5b-ms5b-p1.ips)
 
 Step 1: Make sure you have a working version of Metal Slug 5 (BOOTLEG) for MAME.  
 This is very specific, the patch will not work on any other encrypted versions of Metal Slug 5.  Note: I had to source the files from multiple places.
 
-Step 2: Once you have it working in MAME, close it and apply the IPS patch "MAME-mslug5b-ms5b-p1.ips" to the "ms5b-p1.bin" file
+Step 2: Once you have it working in MAME, close it and apply the IPS patch ```MAME-mslug5b-ms5b-p1.ips``` to the ```ms5b-p1.bin``` file
 
 Step 3: Run the game through MAME.  It will still be called Metal Slug 5 (Bootleg).  It will give checksum errors but it should work.
 
@@ -32,8 +32,8 @@ Step 4: Play!
 
 ### Prerequisites
 
-- Metal Slug 5 (mslug5).neo MiSter rom file.
-   - MD5 = 1D8E7CB3712B183F1323430F3770FEE6
+- ```Metal Slug 5 (mslug5).neo``` MiSter rom file.
+   - MD5 = ```1D8E7CB3712B183F1323430F3770FEE6```
 - [MiSTer-mslug5.ips](https://github.com/Churchdill/MetalSlug5NoSlide/blob/master/ips/MiSTer-mslug5.ips)
 
 
@@ -47,7 +47,7 @@ Step 3: Edit your XML file on your MiSTer to recognize the romhack.  This is typ
 
 After the "mslug5" line in the xml file add the following line, be mindful of syntax:
 
-```<romset name="mslug5ns" pvc="1" altname="Metal Slug 5 - No Slide" publisher="Romhack" year="2026" ram="2"/```
+```<romset name="mslug5ns" pvc="1" altname="Metal Slug 5 - No Slide" publisher="Romhack" year="2026" ram="2"/>```
 
 Save and close romsets.xml
 
